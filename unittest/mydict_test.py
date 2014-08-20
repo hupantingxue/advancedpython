@@ -5,8 +5,18 @@ import unittest
 from mydict import *
 
 class MyDictTest(unittest.TestCase):
-    """
-        pass
+    """ mydict unit test case.
+
+    How to run?
+        1).  python mydict_test.py 
+        2).  python -m unittest mydict_test  # without (.py)
+
+    Run Result:
+        ...
+        ----------------------------------------------------------------------
+        Ran 3 tests in 0.000s
+        
+        OK
     """
     def test_init(self):
         d1 = MyDict(k1="v1", k2=2)
