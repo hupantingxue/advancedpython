@@ -1,4 +1,8 @@
+====================================
+Python interface to coveralls.io API
+====================================
 [![Build Status](https://travis-ci.org/hupantingxue/advancedpython.png)](https://travis-ci.org/hupantingxue/advancedpython)
+[![Build Status](https://coveralls.io/repos/hupantingxue/badge.png)](https://coveralls.io/r/hupantingxue/advancedpython)
 
 advancedpython
 ==============
