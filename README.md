@@ -1,12 +1,4 @@
-.. image:: https://travis-ci.org/jpush/jpush-api-python-client.svg?branch=master
-    :target: https://travis-ci.org/jpush/jpush-api-python-client
-.. image:: https://badge.fury.io/gh/jpush%2Fjpush-api-python-client.svg
-    :target: http://badge.fury.io/gh/jpush%2Fjpush-api-python-client
-.. image:: https://badge.fury.io/py/jpush.svg
-    :target: http://badge.fury.io/py/jpush
-.. image:: https://pypip.in/download/jpush/badge.svg
-    :target: https://pypi.python.org/pypi/jpush/
-    :alt: Downloads
+[![Build Status](https://travis-ci.org/hupantingxue/advancedpython.png)](https://travis-ci.org/hupantingxue/advancedpython)
 
 advancedpython
 ==============
