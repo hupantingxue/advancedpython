@@ -12,10 +12,10 @@ def loop1():
     print("finish loop1 at ", time.ctime())
 
 def main():
+    print("Process start at ", time.ctime())
     loop0()
     loop1()
+    print("Process done at ", time.ctime())
 
 if "__main__" == __name__:
-    print("Process start at ", time.ctime())
     main()
-    print("Process done at ", time.ctime())
