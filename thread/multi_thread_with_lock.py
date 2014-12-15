@@ -20,7 +20,7 @@ def main():
         locks.append(lock)
 
     for ii in range(nloops):
-        thread.start_new_thread(loop, (nloops, loops[ii], locks[ii]))
+        thread.start_new_thread(loop, (ii, loops[ii], locks[ii]))
 
     for lock_item in locks:
         while lock_item.locked():
