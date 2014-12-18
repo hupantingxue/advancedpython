@@ -2,21 +2,16 @@
 from threading import Thread
 import time
 
-def loop0():
-    print("start loop0 at ", time.ctime())
-    time.sleep(4)
-    print("finish loop0 at ", time.ctime())
-
-def loop1():
-    print("start loop1 at ", time.ctime())
-    time.sleep(2)
-    print("finish loop1 at ", time.ctime())
+def loop(idx, nsec):
+    print("start loop", idx, " at ", time.ctime())
+    time.sleep(nsec)
+    print("start loop", idx, " at ", time.ctime())
 
 def main():
     print("Process start at ", time.ctime())
-    thread0 = Thread(target=loop0)
+    thread0 = Thread(target=loop, args=(0, 4))
     thread0.start()
-    thread1 = Thread(target=loop1)
+    thread1 = Thread(target=loop, args=(1, 2))
     thread1.start()
 
     thread0.join()
